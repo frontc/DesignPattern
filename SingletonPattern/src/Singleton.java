@@ -13,7 +13,7 @@ public class Singleton {
         createDate = LocalTime.now();
     }
 
-    public static synchronized Singleton getSingleton() {
+    public static synchronized Singleton getSingleton() { //增加同步，防止高并发的场景出现线程不安全
         if (singleton == null) {
             singleton = new Singleton();
         }
