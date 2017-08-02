@@ -4,9 +4,9 @@
 
 # IntelliJ project files
 .idea
-*.iml
 out
 gen
 将删除 .gitignore
 将删除 .idea/
 将删除 out/
+将删除 "\346\226\260\346\226\207\344\273\266~"
